@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1" />
+        <title>Agence Interaction </title>
+		<link rel="stylesheet" href="interaction.css"/>
+    </head>
+
+    <body>
+	<header>
+		<img src="img/logo.png" alt="logo" id="logo"/>
+		<h1>Interaction</h1>
+		<h3>Agence de solution web et print</h3>
+	</header>
+	<nav id="navigation">
+		<div id="container">
+			<div id="navlogo">
+				<img src="img/logo_nav.png" alt="logo" id="imgnav" class="logo_item hide"/>
+				<p id="pnav" class="logo_item hide">Interaction</p>
+			</div>
+			<ul>
+				<li><a href="accueil.html"><span>ACCUEIL</span></a></li>
+				<li><a href="agence.html"><span>AGENCE</a></span></li>
+				<li><a href="service.html"><span>SERVICE</a><span></li>
+				<li><a href="contact.html"><span>CONTACT</a><span></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<section id="imgaccueil">
+		<img src="img/atlantis.png" alt="atlantis" id="imgac"/>
+		<div id="btn"> bouton déroulez </div>
+	</section>
+	
+	
+	<!-- script -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/interaction.js"></script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <meta charset="ISO-8859-1" />
+        <title>Agence Interaction </title>
+		<link rel="stylesheet" href="interaction.css"/>
+    </head>
+
+    <body>
+	<header>
+		<img src="img/logo.png" alt="logo" id="logo"/>
+		<h1>Interaction</h1>
+		<h3>Agence de solution web et print</h3>
+	</header>
+	<nav id="navigation">
+		<div id="logonav">
+			<img src="img/logo_nav.png" alt="logo"/>
+			<p>Interaction</p>
+		</div>
+		<ul>
+			<li><a href="accueil.html">ACCUEIL</a></li>
+			<li><a href="agence.html">AGENCE</a></li>
+			<li><a href="service.html">SERVICE</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+	
+	
+<!-- <IMG> 	LOGO A METTRE -->
+<div id="btn"> bouton déroulez </div>
+	
+	
+    </body>
+</html>

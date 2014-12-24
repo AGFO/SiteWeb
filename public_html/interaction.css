@@ -1,0 +1,172 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+
+#navigation ul{
+	list-style: none;
+	/*margin: 0 auto;*/
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 520px;
+	margin-right: 0;
+	padding: 0;
+	text-align: center;
+	width: 520px;
+}
+
+#navigation li{
+	float: left;
+	margin: 0;
+	
+	line-height: 60px;
+	transition: all .5s ease-in-out 0s;
+}
+
+#navigation li a{
+	display: block;
+	padding: 0 25px;
+	text-decoration: none;
+	font: 20px Champagne;
+	color: white;
+	transition: all .5s ease-in-out 0s;
+	height: 60px;	
+	/*width: 80px;*/
+	line-height: 58px;
+}
+#navigation li a span{
+	text-decoration:none;
+	border-bottom:1px solid transparent;
+	transition:all .4s ease 0s;
+	display:inline-block;
+	line-height:1.2;
+	
+}
+#navigation li a:hover span{
+	border-bottom:1px solid orange;
+	padding:0 0 2px 0;
+}
+
+#navigation a:visited{
+	color: white;
+}
+
+#navigation li:hover{
+	/*background-color: #4d4d51;*/
+}
+
+#navigation{
+	position : fixed;
+	width: 100%;
+	height: 60px;
+	margin: 20px 0 auto;
+	/*background-color: #333335;*/
+}
+
+#navigation.navigation2{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	/*background-color: #333335;*/
+}
+
+/*header{
+	width: 1000px;
+	height: 130px;
+	margin: 0 auto;
+}*/
+
+#logo{
+	float: left;
+	margin-top: 25px;
+}
+
+@font-face {
+    font-family: 'Champagne';
+    src: url(fonts/Champagne_Limousines.ttf);
+}
+
+@font-face {
+    font-family: 'Champagne';
+    font-weight: bold;
+    src: url(fonts/Champagne_LimousinesBold.ttf);
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 140px;
+	font: 3em 'Champagne';	
+	font-weight: bold;
+	padding-top: 35px;
+	color: grey;
+	height: 90px;
+}
+
+h3{
+	margin-top: 0;
+	margin-left: 185px;
+	font: 12px Champagne;
+	font-weight: bold;
+	color: grey;
+}
+
+#container{
+	width: 1000px;
+	height: 60px;
+	position: relative;
+	margin: 0 auto;
+	transition:all 1s ease 0s;
+}
+
+#navlogo{
+	position: absolute;
+	height: 60px;
+	width: 220px;
+}
+
+#imgnav{
+	float: left;
+	margin: 15px 0;
+	padding-right: 10px;
+	/*opacity: 1;
+	transition:all 1s ease 0s;*/
+}
+
+#pnav{
+	float: left;
+	color: white;
+	font: 30px Champagne;
+	font-weight: bold;
+	height: 40px;
+	margin: 10px 0;
+	/*opacity: 1;
+	transition:all 1s ease 0s;*/
+}
+
+#imgnav.hide, #pnav.hide{
+	/*opacity: 0;*/
+}
+
+/*#imgac{
+	width: 1000px;
+	height: auto;
+}
+
+#imgaccueil{
+	width: 1000px;
+	margin-top: 60px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+#imgac{
+	width: auto;
+	height: auto;
+}
